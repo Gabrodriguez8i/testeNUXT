@@ -6,11 +6,12 @@ export default defineNuxtConfig({
     preset: "cloudflare-pages"
   },
     modules: [
-    "@nuxt/icon",
-    "@nuxt/image",
-    "@nuxt/fonts",
-    "@samk-dev/nuxt-vcalendar",
-  ],
+      "@nuxt/icon",
+      "@nuxt/image",
+      "@nuxt/fonts",
+      "@samk-dev/nuxt-vcalendar",
+      "@pinia/nuxt"
+    ],
 
 // nuxt.config.js
   runtimeConfig: {
